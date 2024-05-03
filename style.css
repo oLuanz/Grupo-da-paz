@@ -1,5 +1,51 @@
-body {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 10%, rgba(59,96,174,1) 100%);
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
     }
+    
+.cabeçalho {
+background-color: #ffff00;
+color: black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 24px 0;
+}
+    
+.cabeçalho-título {
+    font-size: 54px;
+    }
+    
+.cabeçalho-lista {
+        color:black;
+        font-size: 22px;
+    }
+    
+.cabeçalho-imagem {
+        width: 120px;
+    }
+    
+.cabeçalho-lista-item01 {
+        display: inline-block;
+        margin: 0 16px;
+    }
+    
+.cabeçalho-lista-item02 {
+        display: inline-block;
+        margin: 0 16px;
+    }
+
+ .Nosso-objetivo {
+    background-color: #ffe72f;
+    display:flex;
+    justify-content: center;
+ }   
+.Nosso-objetivo-imagem {
+        width: 100px;
+
+.rodapé-imagem {
+background-color: #f77728;
+
+
+}
+}
